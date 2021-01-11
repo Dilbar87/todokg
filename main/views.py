@@ -5,8 +5,8 @@ from django.shortcuts import render, HttpResponse
     #return HttpResponse("hello world!")
 
 
-def test(request):
-    return render(request, "test.html")
+# test(request):
+    #return render(request, "test.html")
 
 
 def homepage(request):
@@ -14,6 +14,9 @@ def homepage(request):
 
 def check(request):
     return HttpResponse("Текшерүү")
+
+def test(request):
+    return HttpResponse("Текст3")
 
 
 
