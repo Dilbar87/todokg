@@ -12,5 +12,8 @@ def test(request):
 def homepage(request):
     return HttpResponse("This is my first page")
 
+def check(request):
+    return HttpResponse("Текшерүү")
+
 
 
