@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #263238;
+}
+
+section{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creat_container{
+    width: 80%;
+}
+
+.creat_input{
+    padding: 12px 5px;
+    font-size: 18px;
+    width: 88%;
+}
+
+.creat_button{
+    padding: 12px 20px;
+    background-color: #CE9308;
+    border: 1px solid #CE9308;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.creat_button:activ{ 
+    border: 1px solid #CE9308;
+    box-shadow: 2px 2px 5px 3px #FCE4EC;
+}
+
+.todo_container{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.todo_item{
+    border:  1px solid grey;
+    border-radius: 3px;
+}
